@@ -11,58 +11,89 @@
 
 ## Contributions
 
-100 PRs · 11 repos · since 2026.03
-
-### Hermes — 63 PRs
+### Hermes — 30 salvaged
 
 Security
-[Discord response bounding](https://github.com/NousResearch/hermes-agent/pull/60222) ·
-[Snapshot Store permissions](https://github.com/NousResearch/hermes-agent/pull/60259) ·
-[TUI confirmation cleanup](https://github.com/NousResearch/hermes-agent/pull/60209)
+[#60222](https://github.com/NousResearch/hermes-agent/pull/60222)
+[#60259](https://github.com/NousResearch/hermes-agent/pull/60259)
+[#60209](https://github.com/NousResearch/hermes-agent/pull/60209)
 
 Profile Isolation
-[auth.json resolve-at-call](https://github.com/NousResearch/hermes-agent/pull/60241) ·
-[profile-aware snapshots](https://github.com/NousResearch/hermes-agent/pull/60317) ·
-[slash-command cache invalidation](https://github.com/NousResearch/hermes-agent/pull/60257)
+[#60241](https://github.com/NousResearch/hermes-agent/pull/60241)
+[#60317](https://github.com/NousResearch/hermes-agent/pull/60317)
+[#60257](https://github.com/NousResearch/hermes-agent/pull/60257)
+[#60315](https://github.com/NousResearch/hermes-agent/pull/60315)
+[#60231](https://github.com/NousResearch/hermes-agent/pull/60231)
 
 Agent Core
-[/stop signal loss](https://github.com/NousResearch/hermes-agent/pull/60018) ·
-[same-result tool loop](https://github.com/NousResearch/hermes-agent/pull/60285) ·
-[ephemeral system prompt](https://github.com/NousResearch/hermes-agent/pull/59363)
+[#60018](https://github.com/NousResearch/hermes-agent/pull/60018)
+[#60285](https://github.com/NousResearch/hermes-agent/pull/60285)
+[#59363](https://github.com/NousResearch/hermes-agent/pull/59363)
+[#59360](https://github.com/NousResearch/hermes-agent/pull/59360)
 
-Scheduling & Plugins
-[one-shot double-execution](https://github.com/NousResearch/hermes-agent/pull/59446) ·
-[plugin hot-reload](https://github.com/NousResearch/hermes-agent/pull/60254) ·
-[CIDR no_proxy](https://github.com/NousResearch/hermes-agent/pull/59474) ·
-[memory entropy audit](https://github.com/NousResearch/hermes-agent/pull/59826)
+Scheduling
+[#59446](https://github.com/NousResearch/hermes-agent/pull/59446)
+[#59428](https://github.com/NousResearch/hermes-agent/pull/59428)
+[#59410](https://github.com/NousResearch/hermes-agent/pull/59410)
+[#59989](https://github.com/NousResearch/hermes-agent/pull/59989)
 
-[30 accepted + 33 open · Telegram / Feishu / WeCom / Discord →](https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3Aisheng-eqi)
+Plugins
+[#60254](https://github.com/NousResearch/hermes-agent/pull/60254)
+
+Tools & Files
+[#59338](https://github.com/NousResearch/hermes-agent/pull/59338)
+[#59340](https://github.com/NousResearch/hermes-agent/pull/59340)
+[#60000](https://github.com/NousResearch/hermes-agent/pull/60000)
+[#59948](https://github.com/NousResearch/hermes-agent/pull/59948)
+
+OAuth & Auth
+[#60264](https://github.com/NousResearch/hermes-agent/pull/60264)
+[#60397](https://github.com/NousResearch/hermes-agent/pull/60397)
+[#60392](https://github.com/NousResearch/hermes-agent/pull/60392)
+
+Other
+[#60273](https://github.com/NousResearch/hermes-agent/pull/60273)
+[#61391](https://github.com/NousResearch/hermes-agent/pull/61391)
+[#60650](https://github.com/NousResearch/hermes-agent/pull/60650)
+[#60680](https://github.com/NousResearch/hermes-agent/pull/60680)
 
 
-### Pydantic-AI — 13 PRs · 4 merged
+### Pydantic-AI — 4 merged
 
-[Parameter validation system](https://github.com/pydantic/pydantic-ai/pulls?q=is%3Apr+author%3Aisheng-eqi) —
-[ConcurrencyLimit](https://github.com/pydantic/pydantic-ai/pull/6373) ·
-[Tool max_retries](https://github.com/pydantic/pydantic-ai/pull/6375) ·
-[ToolOutput](https://github.com/pydantic/pydantic-ai/pull/6377) ·
-[Agent tool_timeout](https://github.com/pydantic/pydantic-ai/pull/6383)
+[#6373](https://github.com/pydantic/pydantic-ai/pull/6373)
+ConcurrencyLimit max_queued validation ·
+[#6375](https://github.com/pydantic/pydantic-ai/pull/6375)
+Tool max_retries validation ·
+[#6377](https://github.com/pydantic/pydantic-ai/pull/6377)
+ToolOutput max_retries validation ·
+[#6383](https://github.com/pydantic/pydantic-ai/pull/6383)
+Agent tool_timeout validation
 
-Self-discovered, self-fixed — each bug issue paired with its own fix PR
+
+### Dify — 3 merged
+
+[#38447](https://github.com/langgenius/dify/pull/38447)
+drop redundant len(tag_ids)==0 check ·
+[#38448](https://github.com/langgenius/dify/pull/38448)
+raise clear error on unsupported execute_code language ·
+[#38494](https://github.com/langgenius/dify/pull/38494)
+fix provider_type in plugin dependency ids
+
+[#767](https://github.com/langgenius/dify-plugin-daemon/pull/767)
+dify-plugin-daemon — fallback to lowercase proxy env vars
 
 
-### Dify · MCP · Heym · tyut-chat · Litestar
+### Heym · tyut-chat — 7 merged
 
-[provider dependency fix](https://github.com/langgenius/dify/pull/38494) ·
-[document indexing restore](https://github.com/langgenius/dify/pull/38450) ·
-[plugin daemon proxy](https://github.com/langgenius/dify-plugin-daemon/pull/767)
-
-[Windows SSE deadlock](https://github.com/modelcontextprotocol/python-sdk/pull/3069) ·
-[robots.txt resilience](https://github.com/modelcontextprotocol/servers/pull/4482) ·
-[JSON-RPC error propagation](https://github.com/modelcontextprotocol/servers/pull/4483)
-
-[thread-safe nodes](https://github.com/heymrun/heym/pull/292) ·
-[campus IM — 6 PRs](https://github.com/ljy-negroni/tyut-chat/pulls?q=is%3Apr+author%3Aisheng-eqi) ·
-[channel race condition](https://github.com/litestar-org/litestar/pull/4899)
+[#292](https://github.com/heymrun/heym/pull/292)
+thread-safe node input reads + JSON parse error handling ·
+[#12](https://github.com/ljy-negroni/tyut-chat/pull/12)
+[#14](https://github.com/ljy-negroni/tyut-chat/pull/14)
+[#16](https://github.com/ljy-negroni/tyut-chat/pull/16)
+[#19](https://github.com/ljy-negroni/tyut-chat/pull/19)
+[#21](https://github.com/ljy-negroni/tyut-chat/pull/21)
+[#23](https://github.com/ljy-negroni/tyut-chat/pull/23)
+campus IM — voice messages, Moments UI, ESLint, quote replies
 
 
 ## Projects
