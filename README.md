@@ -83,17 +83,10 @@ fix provider_type in plugin dependency ids
 dify-plugin-daemon — fallback to lowercase proxy env vars
 
 
-### Heym · tyut-chat — 7 merged
+### Heym — 1 merged
 
 [#292](https://github.com/heymrun/heym/pull/292)
-thread-safe node input reads + JSON parse error handling ·
-[#12](https://github.com/ljy-negroni/tyut-chat/pull/12)
-[#14](https://github.com/ljy-negroni/tyut-chat/pull/14)
-[#16](https://github.com/ljy-negroni/tyut-chat/pull/16)
-[#19](https://github.com/ljy-negroni/tyut-chat/pull/19)
-[#21](https://github.com/ljy-negroni/tyut-chat/pull/21)
-[#23](https://github.com/ljy-negroni/tyut-chat/pull/23)
-campus IM — voice messages, Moments UI, ESLint, quote replies
+thread-safe node input reads + JSON parse error handling
 
 
 ## Projects
