@@ -11,7 +11,7 @@
 
 ## Contributions
 
-### Hermes — 30 salvaged
+### Hermes — 30 salvaged · [AUTHOR_MAP](https://github.com/NousResearch/hermes-agent/search?q=isheng-eqi+AUTHOR_MAP&type=commits)
 
 Security
 [#60222](https://github.com/NousResearch/hermes-agent/pull/60222)
