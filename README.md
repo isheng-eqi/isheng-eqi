@@ -77,7 +77,6 @@ Self-discovered, self-fixed — each bug issue paired with its own fix PR
 
 ## Writing
 
-Claude Code deep reverse engineering · MCP vs Skill architecture analysis
 [CSDN](https://blog.csdn.net/2401_87426897)
 
 
