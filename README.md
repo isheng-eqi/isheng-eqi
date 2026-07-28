@@ -11,7 +11,7 @@
 
 ## Contributions
 
-### Hermes — 30 salvaged · [AUTHOR_MAP](https://github.com/NousResearch/hermes-agent/search?q=isheng-eqi+AUTHOR_MAP&type=commits)
+### Hermes — 31 salvaged · [AUTHOR_MAP](https://github.com/NousResearch/hermes-agent/search?q=isheng-eqi+AUTHOR_MAP&type=commits)
 
 Security
 [#60222](https://github.com/NousResearch/hermes-agent/pull/60222)
@@ -56,6 +56,7 @@ Other
 [#61391](https://github.com/NousResearch/hermes-agent/pull/61391)
 [#60650](https://github.com/NousResearch/hermes-agent/pull/60650)
 [#60680](https://github.com/NousResearch/hermes-agent/pull/60680)
+[#61407](https://github.com/NousResearch/hermes-agent/pull/61407)
 
 
 ### Pydantic-AI — 4 merged
