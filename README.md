@@ -11,52 +11,21 @@
 
 ## Contributions
 
-### Hermes — 31 salvaged · [AUTHOR_MAP](https://github.com/NousResearch/hermes-agent/search?q=isheng-eqi+AUTHOR_MAP&type=commits)
-
-Security
-[#60222](https://github.com/NousResearch/hermes-agent/pull/60222)
-[#60259](https://github.com/NousResearch/hermes-agent/pull/60259)
-[#60209](https://github.com/NousResearch/hermes-agent/pull/60209)
-
-Profile Isolation
-[#60241](https://github.com/NousResearch/hermes-agent/pull/60241)
-[#60317](https://github.com/NousResearch/hermes-agent/pull/60317)
-[#60257](https://github.com/NousResearch/hermes-agent/pull/60257)
-[#60315](https://github.com/NousResearch/hermes-agent/pull/60315)
-[#60231](https://github.com/NousResearch/hermes-agent/pull/60231)
+### Hermes — 7 commits · [commits](https://github.com/NousResearch/hermes-agent/commits?author=isheng-eqi)
 
 Agent Core
 [#60018](https://github.com/NousResearch/hermes-agent/pull/60018)
-[#60285](https://github.com/NousResearch/hermes-agent/pull/60285)
-[#59363](https://github.com/NousResearch/hermes-agent/pull/59363)
-[#59360](https://github.com/NousResearch/hermes-agent/pull/59360)
+fix: prevent /stop signal loss and empty provider credential corruption
 
 Scheduling
 [#59446](https://github.com/NousResearch/hermes-agent/pull/59446)
+fix(cron): prevent double-execution of one-shot jobs across concurrent schedulers
 [#59428](https://github.com/NousResearch/hermes-agent/pull/59428)
-[#59410](https://github.com/NousResearch/hermes-agent/pull/59410)
-[#59989](https://github.com/NousResearch/hermes-agent/pull/59989)
+fix(cron): reject past one-shot timestamps in update_job + resume_job
 
-Plugins
-[#60254](https://github.com/NousResearch/hermes-agent/pull/60254)
-
-Tools & Files
-[#59338](https://github.com/NousResearch/hermes-agent/pull/59338)
-[#59340](https://github.com/NousResearch/hermes-agent/pull/59340)
-[#60000](https://github.com/NousResearch/hermes-agent/pull/60000)
-[#59948](https://github.com/NousResearch/hermes-agent/pull/59948)
-
-OAuth & Auth
-[#60264](https://github.com/NousResearch/hermes-agent/pull/60264)
-[#60397](https://github.com/NousResearch/hermes-agent/pull/60397)
-[#60392](https://github.com/NousResearch/hermes-agent/pull/60392)
-
-Other
-[#60273](https://github.com/NousResearch/hermes-agent/pull/60273)
-[#61391](https://github.com/NousResearch/hermes-agent/pull/61391)
-[#60650](https://github.com/NousResearch/hermes-agent/pull/60650)
-[#60680](https://github.com/NousResearch/hermes-agent/pull/60680)
+Gateway / Voice
 [#61407](https://github.com/NousResearch/hermes-agent/pull/61407)
+fix(discord): wire voice input callback at adapter connect time
 
 
 ### Pydantic-AI — 4 merged
