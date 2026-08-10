@@ -11,11 +11,13 @@
 
 ## Contributions
 
-### Hermes — 7 commits · [commits](https://github.com/NousResearch/hermes-agent/commits?author=isheng-eqi)
+### Hermes — 8 commits · [commits](https://github.com/NousResearch/hermes-agent/commits?author=isheng-eqi)
 
 Agent Core
 [#60018](https://github.com/NousResearch/hermes-agent/pull/60018)
 fix: prevent /stop signal loss and empty provider credential corruption
+[#60004](https://github.com/NousResearch/hermes-agent/pull/60004)
+fix: reject non-positive process timeout; clear hint for read_file past EOF
 
 Scheduling
 [#59446](https://github.com/NousResearch/hermes-agent/pull/59446)
