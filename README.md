@@ -11,7 +11,7 @@
 
 ## Contributions
 
-### Hermes — 9 commits · [commits](https://github.com/NousResearch/hermes-agent/commits?author=isheng-eqi)
+### Hermes — 10 commits · [commits](https://github.com/NousResearch/hermes-agent/commits?author=isheng-eqi)
 
 Agent Core
 [#97167](https://github.com/NousResearch/hermes-agent/pull/97167)
