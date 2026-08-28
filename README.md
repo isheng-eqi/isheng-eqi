@@ -11,9 +11,11 @@
 
 ## Contributions
 
-### Hermes — 8 commits · [commits](https://github.com/NousResearch/hermes-agent/commits?author=isheng-eqi)
+### Hermes — 9 commits · [commits](https://github.com/NousResearch/hermes-agent/commits?author=isheng-eqi)
 
 Agent Core
+[#97167](https://github.com/NousResearch/hermes-agent/pull/97167)
+fix(agent): tool-pair sanitizers (salvage #55845 + #78063 + #59434)
 [#60018](https://github.com/NousResearch/hermes-agent/pull/60018)
 fix: prevent /stop signal loss and empty provider credential corruption
 [#60004](https://github.com/NousResearch/hermes-agent/pull/60004)
