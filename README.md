@@ -16,20 +16,20 @@
 Agent Core
 [#97167](https://github.com/NousResearch/hermes-agent/pull/97167)
 fix(agent): tool-pair sanitizers (salvage #55845 + #78063 + #59434)
-[#60018](https://github.com/NousResearch/hermes-agent/pull/60018)
-fix: prevent /stop signal loss and empty provider credential corruption
-[#60004](https://github.com/NousResearch/hermes-agent/pull/60004)
-fix: reject non-positive process timeout; clear hint for read_file past EOF
+[#60120](https://github.com/NousResearch/hermes-agent/pull/60120)
+fix(interrupt/auth): prevent /stop swallow (incl. Bedrock) and empty-provider credential corruption
+[#83009](https://github.com/NousResearch/hermes-agent/pull/83009)
+fix(process): reject non-positive wait timeouts (salvage #60004)
 
 Scheduling
-[#59446](https://github.com/NousResearch/hermes-agent/pull/59446)
-fix(cron): prevent double-execution of one-shot jobs across concurrent schedulers
-[#59428](https://github.com/NousResearch/hermes-agent/pull/59428)
-fix(cron): reject past one-shot timestamps in update_job + resume_job
+[#59524](https://github.com/NousResearch/hermes-agent/pull/59524)
+fix(cron): durable run-claim prevents one-shot double-execution
+[#59447](https://github.com/NousResearch/hermes-agent/pull/59447)
+fix(cron): reject past one-shot in update_job fallback + resume_job
 
 Gateway / Voice
-[#61407](https://github.com/NousResearch/hermes-agent/pull/61407)
-fix(discord): wire voice input callback at adapter connect time
+[#73517](https://github.com/NousResearch/hermes-agent/pull/73517)
+fix(discord): voice correctness — callback wiring, warm-up clip fix, threading, drain, configurable timeouts
 
 
 ### Pydantic-AI — 4 merged
@@ -44,14 +44,12 @@ ToolOutput max_retries validation ·
 Agent tool_timeout validation
 
 
-### Dify — 3 merged
+### Dify — 2 merged
 
 [#38447](https://github.com/langgenius/dify/pull/38447)
 drop redundant len(tag_ids)==0 check ·
 [#38448](https://github.com/langgenius/dify/pull/38448)
 raise clear error on unsupported execute_code language ·
-[#38494](https://github.com/langgenius/dify/pull/38494)
-fix provider_type in plugin dependency ids
 
 [#767](https://github.com/langgenius/dify-plugin-daemon/pull/767)
 dify-plugin-daemon — fallback to lowercase proxy env vars
