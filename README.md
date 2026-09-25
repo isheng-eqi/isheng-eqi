@@ -11,7 +11,7 @@
 
 ## Contributions
 
-### Hermes — 10 commits · [commits](https://github.com/NousResearch/hermes-agent/commits?author=isheng-eqi)
+### Hermes — 10 commits (authored) · 1 co-authored · [commits](https://github.com/NousResearch/hermes-agent/commits?author=isheng-eqi)
 
 Agent Core
 [#97167](https://github.com/NousResearch/hermes-agent/pull/97167)
@@ -20,6 +20,8 @@ fix(agent): tool-pair sanitizers (salvage #55845 + #78063 + #59434)
 fix(interrupt/auth): prevent /stop swallow (incl. Bedrock) and empty-provider credential corruption
 [#83009](https://github.com/NousResearch/hermes-agent/pull/83009)
 fix(process): reject non-positive wait timeouts (salvage #60004)
+[#121493](https://github.com/NousResearch/hermes-agent/pull/121493)
+fix(streaming): back off between stream reconnects; retry Anthropic connection drops (my report #60029, co-authored)
 
 Scheduling
 [#59524](https://github.com/NousResearch/hermes-agent/pull/59524)
@@ -30,6 +32,14 @@ fix(cron): reject past one-shot in update_job fallback + resume_job
 Gateway / Voice
 [#73517](https://github.com/NousResearch/hermes-agent/pull/73517)
 fix(discord): voice correctness — callback wiring, warm-up clip fix, threading, drain, configurable timeouts
+
+
+### awesome-dsh-plugin — 2 merged
+
+[#1468](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/1468)
+dsh-niulai-sound — approval sound effects ·
+[#1288](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/1288)
+dsh-hermes-memory — memory plugin listing
 
 
 ### Pydantic-AI — 4 merged
