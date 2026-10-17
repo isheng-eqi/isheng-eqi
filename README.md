@@ -34,8 +34,10 @@ Gateway / Voice
 fix(discord): voice correctness — callback wiring, warm-up clip fix, threading, drain, configurable timeouts
 
 
-### awesome-dsh-plugin — 2 merged
+### awesome-dsh-plugin — 3 merged
 
+[#7036](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7036)
+dsh-educoder — EduCoder homework automation via the platform's own API ·
 [#1468](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/1468)
 dsh-niulai-sound — approval sound effects ·
 [#1288](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/1288)
