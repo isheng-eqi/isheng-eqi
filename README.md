@@ -67,22 +67,6 @@ raise clear error on unsupported execute_code language ·
 dify-plugin-daemon — fallback to lowercase proxy env vars
 
 
-### Heym — 1 merged
-
-[#292](https://github.com/heymrun/heym/pull/292)
-thread-safe node input reads + JSON parse error handling
-
-
-## Projects
-
-[Janus](https://github.com/isheng-eqi/janus-agent) — AI agent framework, four-role architecture
-[agentcanary](https://github.com/isheng-eqi/agentcanary) — Agent security red-team toolkit
-[claude-code-reverse-engineering](https://github.com/isheng-eqi/claude-code-reverse-engineering) — Full binary reverse of Claude Code (215MB)
-[elder-pill](https://github.com/isheng-eqi/elder-pill) — Android medication reminder with deep alarm integration
-[media-crawler-easy](https://github.com/isheng-eqi/media-crawler-easy) — Multi-platform social media scraper
-[pure-chat](https://github.com/isheng-eqi/pure-chat) — Zero-injection, zero-prompt, multi-API chat
-
-
 ## Writing
 
 [CSDN](https://blog.csdn.net/2401_87426897)
